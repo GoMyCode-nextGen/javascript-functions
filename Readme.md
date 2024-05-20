@@ -1,6 +1,6 @@
 # Funtions Exercises
 ## Basic Requirements
-### 1.Write a function called myFirstFunction that takes no parameters and does nothing, then invoke the function.
+1.Write a function called myFirstFunction that takes no parameters and does nothing, then invoke the function.
 
 ```js
 function myFirstFunction(){
@@ -8,7 +8,7 @@ function myFirstFunction(){
 } 
 myFirstFunction();
 ```
-### 2.Write a function called helloWorld that prints “Hello World” to the console and invoke it. HINT: Use console.log().
+2.Write a function called helloWorld that prints “Hello World” to the console and invoke it. HINT: Use console.log().
 
 ```js
 function helloWorld() { 
@@ -16,7 +16,7 @@ function helloWorld() {
 } 
 helloWorld(); // -> "Hello World"
 ```
-### 3.Write a function called returnFive that takes no parameters and returns the number 5 when invoked. HINT: Use console.log().
+3.Write a function called returnFive that takes no parameters and returns the number 5 when invoked. HINT: Use console.log().
 
 ```js
 function returnFive() {
@@ -24,7 +24,7 @@ function returnFive() {
 }
 returnFive(); // -> 5
 ```
-### 4.Write a function called helloWorldAgain that takes no parameters and returns the string “Hello World Again” when invoked.
+4.Write a function called helloWorldAgain that takes no parameters and returns the string “Hello World Again” when invoked.
 
 ```js
 function helloWorldAgain() {
@@ -33,7 +33,7 @@ function helloWorldAgain() {
 helloWorldAgain(); // -> "Hello World Again"
 
 ```
-### 5.Write a function called returnParameter that takes one parameter and returns the parameter when invoked.
+5.Write a function called returnParameter that takes one parameter and returns the parameter when invoked.
 
 ```js
 function returnParameter(parameter) {
@@ -43,7 +43,7 @@ returnParameter(1); // -> 1
 returnParameter(2); // -> 2 
 returnParameter("Hi"); // -> "Hi"
 ```
-Write a function called add that takes two numbers as parameters and when invoked adds them together then return the result.
+6.Write a function called add that takes two numbers as parameters and when invoked adds them together then return the result.
 
 ```js
 function add(firstNumber, secondNumber) { 
@@ -52,7 +52,7 @@ function add(firstNumber, secondNumber) {
 add(1, 1); // -> 2 
 add(2, 2); // -> 4
 ```
-Write a function called subtract that takes two numbers as parameters and when invoked subtracts them from each other then returns the result.
+7.Write a function called subtract that takes two numbers as parameters and when invoked subtracts them from each other then returns the result.
 
 ```js
 function subtract(firstNumber, secondNumber) {
@@ -62,7 +62,7 @@ subtract(2, 1); // -> 1
 subtract(3, 3); // -> 0 
 subtract(1, 2); // -> -1
 ```
-Write a function called multiply that takes two numbers as parameters and when invoked multiplies them together then returns the result.
+8.Write a function called multiply that takes two numbers as parameters and when invoked multiplies them together then returns the result.
 
 ```js
 function multiply(firstNumber, secondNumber) {
@@ -71,7 +71,7 @@ function multiply(firstNumber, secondNumber) {
 multiply(2, 3); // -> 6
 multiply(4, 5); // -> 20
 ```
-Write a function called stringLength that takes a string as a parameter and when invoked returns the length of the string as a number. HINT: use .length.
+9.Write a function called stringLength that takes a string as a parameter and when invoked returns the length of the string as a number. HINT: use .length.
 
 ```js
 function stringLength(string) {
@@ -80,7 +80,7 @@ function stringLength(string) {
 stringLength("Hello"); // -> 5 
 stringLength("Hi"); // -> 2
 ```
-Write a function called concatTwoStrings that takes two strings as parameters and returns a combined (concatenated) string when invoked.
+10.Write a function called concatTwoStrings that takes two strings as parameters and returns a combined (concatenated) string when invoked.
 
 ```js
 function concatTwoStrings(firstString, secondString) {
@@ -89,7 +89,7 @@ function concatTwoStrings(firstString, secondString) {
 concatTwoStrings("Hello", "World"); // -> "HelloWorld" 
 concatTwoStrings("Cute", "Kitty"); // -> "CuteKitty"
 ```
-Write a function called fullName that takes two strings as parameters and when invoked returns a combined (concatenated) string as full name with a white space in between.
+11.Write a function called fullName that takes two strings as parameters and when invoked returns a combined (concatenated) string as full name with a white space in between.
 
 ```js
 function fullName(firstName, lastName) {
@@ -98,8 +98,8 @@ function fullName(firstName, lastName) {
 fullName("Benjamin", "Franklin"); // -> "Benjamin Franklin" 
 fullName("Steven", "Paul"); // -> "Steven Paul"
 ```
-More Practice
-Write a function called square that takes a number as a parameter, squares it and returns the result.
+## More Practice
+1.Write a function called square that takes a number as a parameter, squares it and returns the result.
 
 ```js
 function square(number) {
@@ -108,7 +108,7 @@ function square(number) {
 square(2); // -> 4
 square(3); // -> 9
 ```
-Write a function called cube that takes a number as a parameter, cube it and returns the result.
+2.Write a function called cube that takes a number as a parameter, cube it and returns the result.
 
 ```js
 function cube(number) {
@@ -117,7 +117,7 @@ function cube(number) {
 cube(2); // -> 8
 cube(3); // -> 27
 ```
-Write a function called charAtIndex that takes a string and an integer as parameters and returns the the character at the index of the number. HINT: Use .charAt.
+3.Write a function called charAtIndex that takes a string and an integer as parameters and returns the the character at the index of the number. HINT: Use .charAt.
 
 ```js
 function charAtIndex(string, number) {
@@ -126,7 +126,7 @@ function charAtIndex(string, number) {
 charAtIndex("Hello", 2); // -> "l" 
 charAtIndex("World", 0); // -> "W"
 ```
-Write a function called addFourNums that takes four numbers as four parameters and returns the summation of the numbers.
+4.Write a function called addFourNums that takes four numbers as four parameters and returns the summation of the numbers.
 
 ```js
 function addFourNums(num1, num2, num3, num4) {
@@ -135,7 +135,7 @@ function addFourNums(num1, num2, num3, num4) {
 addFourNums(1, 1, 1, 1); // -> 4 
 addFourNums(1, 2, 3, 4); // -> 10
 ```
-Write a function called perimeterRect that takes a numerical width and length as parameters and returns the perimeter of the rectangle.
+5.Write a function called perimeterRect that takes a numerical width and length as parameters and returns the perimeter of the rectangle.
 
 ```js
 function perimeterRect(width, length) {
@@ -144,7 +144,7 @@ function perimeterRect(width, length) {
 perimeterRect(2, 3); // -> 10
 perimeterRect(4, 5); // -> 18
 ```
-Write a function called areaRect that takes a numerical width and length as parameters and returns the area of the rectangle.
+6.Write a function called areaRect that takes a numerical width and length as parameters and returns the area of the rectangle.
 
 ```js
 function areaRect(width, length) {
@@ -153,7 +153,7 @@ function areaRect(width, length) {
 areaRect(2, 3); // -> 6
 areaRect(4, 5); // -> 20
 ```
-Write a function called perimeterTriangle that takes the numerical length of each side as parameters and returns the perimeter of the triangle.
+7.Write a function called perimeterTriangle that takes the numerical length of each side as parameters and returns the perimeter of the triangle.
 
 ```js
 function perimeterTriangle(side1, side2, side3) {
@@ -162,7 +162,7 @@ function perimeterTriangle(side1, side2, side3) {
 perimeterTriangle(3, 4, 5); // -> 12
 perimeterTriangle(6, 7, 8); // -> 21
 ```
-Write a function called areaTriangle that takes the numerical base and height of a triangle as parameters and returns the area of the triangle.
+8.Write a function called areaTriangle that takes the numerical base and height of a triangle as parameters and returns the area of the triangle.
 
 ```js
 function areaTriangle(base, height) {
@@ -171,7 +171,7 @@ function areaTriangle(base, height) {
 areaTriangle(3, 4); // -> 6
 areaTriangle(6, 8); // -> 24
 ```
-Write a function called tripleArea that takes the numerical width and length of a rectangle as parameters and returns the rectangle's area, multiplied by 3.
+9.Write a function called tripleArea that takes the numerical width and length of a rectangle as parameters and returns the rectangle's area, multiplied by 3.
 
 ```js
 function tripleArea(width, length) {
@@ -179,9 +179,9 @@ function tripleArea(width, length) {
 }
 tripleArea(2, 3); // -> 18
 tripleArea(4, 5); // -> 60
-```js
-Advanced
-Write a function called perimeterOfCircle that takes the numerical radius of a circle as a parameter and returns the perimeter. HINT: Use Math.PI in your function.
+```
+## Advanced
+1.Write a function called perimeterOfCircle that takes the numerical radius of a circle as a parameter and returns the perimeter. HINT: Use Math.PI in your function.
 
 ```js
 function perimeterOfCircle(radius) {
@@ -191,7 +191,7 @@ perimeterOfCircle(3); // -> 18.85
 perimeterOfCircle(5); // -> 31.42 
 perimeterOfCircle(8); // -> 50.27
 ```
-Write a function called areaOfCircle that takes the numerical radius of a circle as a parameter and returns the area.
+2.Write a function called areaOfCircle that takes the numerical radius of a circle as a parameter and returns the area.
 
 ```js
 function areaOfCircle(radius) {
@@ -203,7 +203,7 @@ areaOfCircle(8); // -> 201.06
 ```
 
 
-Write a function called inchesToCentimeters that takes a numerical length in inches as a parameter and returns the equivalent value in centimeters.
+3.Write a function called inchesToCentimeters that takes a numerical length in inches as a parameter and returns the equivalent value in centimeters.
 
 ```js
 function inchesToCentimeters(inches) {
@@ -214,7 +214,7 @@ inchesToCentimeters(4); // -> 10.16
 inchesToCentimeters(10); // -> 25.4
 ```
 
-Write a function called centimetersToInches that takes a numerical length in centimeters as a parameter and returns the equivalent value in inches.
+4.Write a function called centimetersToInches that takes a numerical length in centimeters as a parameter and returns the equivalent value in inches.
 
 ```js
 function centimetersToInches(centimeters) {
