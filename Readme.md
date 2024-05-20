@@ -1,6 +1,6 @@
-Exercises
-Basic Requirements
-Write a function called myFirstFunction that takes no parameters and does nothing, then invoke the function.
+# Funtions Exercises
+## Basic Requirements
+### 1.Write a function called myFirstFunction that takes no parameters and does nothing, then invoke the function.
 
 ```js
 function myFirstFunction(){
@@ -8,7 +8,7 @@ function myFirstFunction(){
 } 
 myFirstFunction();
 ```
-Write a function called helloWorld that prints “Hello World” to the console and invoke it. HINT: Use console.log().
+### 2.Write a function called helloWorld that prints “Hello World” to the console and invoke it. HINT: Use console.log().
 
 ```js
 function helloWorld() { 
@@ -16,7 +16,7 @@ function helloWorld() {
 } 
 helloWorld(); // -> "Hello World"
 ```
-Write a function called returnFive that takes no parameters and returns the number 5 when invoked. HINT: Use console.log().
+### 3.Write a function called returnFive that takes no parameters and returns the number 5 when invoked. HINT: Use console.log().
 
 ```js
 function returnFive() {
@@ -24,7 +24,7 @@ function returnFive() {
 }
 returnFive(); // -> 5
 ```
-Write a function called helloWorldAgain that takes no parameters and returns the string “Hello World Again” when invoked.
+### 4.Write a function called helloWorldAgain that takes no parameters and returns the string “Hello World Again” when invoked.
 
 ```js
 function helloWorldAgain() {
@@ -33,7 +33,7 @@ function helloWorldAgain() {
 helloWorldAgain(); // -> "Hello World Again"
 
 ```
-Write a function called returnParameter that takes one parameter and returns the parameter when invoked.
+### 5.Write a function called returnParameter that takes one parameter and returns the parameter when invoked.
 
 ```js
 function returnParameter(parameter) {
